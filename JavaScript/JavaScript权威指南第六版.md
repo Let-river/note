@@ -1,5 +1,5 @@
 
-
+@[toc]
 ##### javascript 语言核心定义的类
 
 数组类(Array)、函数类(Function)、日期类(Date)、正则类(RegExp)、错误类（Error）
