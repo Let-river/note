@@ -18,8 +18,8 @@ undefined是预定义的全局变量，它的值就是“未定义”。typeof�
 
 当javascript解释器启动时（或者浏览器加载新页面的时候），他将创建一个新的全局对象，并给它一组定义的初始属性：
 - 全局属性，比如undefined、Infinity和NaN
-- 全局函数，比如isNaN()、parseInt（）和eval    （）
-- 构造函数，比如Data()、RegExp()、String（）、Object（）和Array（）
+- 全局函数，比如isNaN()、parseInt()和eval()
+- 构造函数，比如Data()、RegExp()、String()、Object()和Array()
 - 全局对象，比如Math和JSON
 
 
