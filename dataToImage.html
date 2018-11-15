@@ -26,7 +26,6 @@
 </body>
 
 <script>
-
     var imgUrl = null;
     document.querySelector("#toImage").addEventListener("click", function () {
 
@@ -134,14 +133,16 @@
             }
             // 4. 解码字节数组
             var data = uint8array.subarray(0, includeBytes);
-            var strData = (new TextDecoder('utf-8')).decode(data);
+            var strData = (new TextDecoder('utf-8')).decode(data);  // 现在strData变量保存了编码到PNG图像中的原始字符串数据。
 
-            // 现在strData变量保存了编码到PNG图像中的原始字符串数据。
+            // 显示
             document.querySelector("#dataShow").innerHTML = strData;
 
         };
         img.src = imgUrl;
     })
+    
+    
 </script>
 
 </html>
